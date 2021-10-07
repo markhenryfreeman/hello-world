@@ -12,4 +12,7 @@ string dayOfWeek = "Wednesday";
                 case "Sunday":
                     Console.Out.WriteLine("Assignment is due!");
                     break;
+                default:
+                    Console.Out.WriteLine("Go Over unit study material");
+                    break:
 }
