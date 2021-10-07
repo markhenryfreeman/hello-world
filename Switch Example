@@ -2,7 +2,24 @@
 
 string dayOfWeek = "Wednesday";
             switch (dayOfWeek)
-            [
+            {
+                case "Wednesday":
+                    Console.Out.WriteLine("Discussion Post is Due!");
+                    break;
+                case "Friday":
+                    Console.Out.WriteLine("Quiz is due!");
+                    break
+                case "Sunday":
+                    Console.Out.WriteLine("Assignment is due!");
+                    break;
+             }
+
+
+//Switch Example for switch/Select Case
+
+string dayOfWeek = "Wednesday";
+            switch (dayOfWeek)
+            {
                 case "Wednesday":
                     Console.Out.WriteLine("Discussion Post is Due!");
                     break;
@@ -16,3 +33,24 @@ string dayOfWeek = "Wednesday";
                     Console.Out.WriteLine("Go Over unit study material");
                     break:
 }
+
+
+//Switch Example for multiple conditions
+
+string dayOfWeek = "Wednesday";
+switch (dayOfWeek)
+{
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday":
+        Console.Out.WriteLine("This is a weekday");
+        break;
+    case "Saturday":
+    case "Sunday":
+        Console.Out.WriteLine("This is a weekend");
+        break;
+}
+                   
+                    
