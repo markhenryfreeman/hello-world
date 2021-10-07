@@ -1,4 +1,4 @@
-//Switch Example
+//switch and Select Case statements
 
 string dayOfWeek = "Wednesday";
             switch (dayOfWeek)
@@ -15,7 +15,7 @@ string dayOfWeek = "Wednesday";
              }
 
 
-//Switch Example for switch/Select Case
+//switch and Select Case statements with Default case
 
 string dayOfWeek = "Wednesday";
             switch (dayOfWeek)
@@ -35,7 +35,7 @@ string dayOfWeek = "Wednesday";
 }
 
 
-//Switch Example for multiple conditions
+//switch and Select Case statements with multiple cases
 
 string dayOfWeek = "Wednesday";
 switch (dayOfWeek)
